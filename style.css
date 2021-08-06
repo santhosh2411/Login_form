@@ -1,0 +1,57 @@
+body {
+    background: url('./Batman.jpg') no-repeat;
+    background-position-x: center;
+    background-size: 100%;
+    background-position-x: 100%;
+    background-position-y: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke
+}
+
+.login-form {
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    border-color: red;
+    border-width: 1;
+    border-style: solid;
+}
+
+.login-form h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.login-form label {
+    font-size: 20px;
+}
+
+.login-form input {
+    font-size: 16px;
+    width: 80%;
+    padding: 10px 5px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.dash-board {
+    color: lightcyan;
+    font-family: fantasy;
+    font-size: 100px;
+    margin-left: 30%;
+    margin-top: 25%;
+    margin-right: 75%;
+    margin-bottom: 40%;
+}
+
+.body {
+    background-position: 100%;
+    background-color: lightseagreen;
+    background-image: unset;
+}
