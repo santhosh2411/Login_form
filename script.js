@@ -19,6 +19,8 @@ function validate() {
     const password = document.getElementById("password").value;
 
     if (userName == "admin" && password == "admin") {
+        alert('Login Sucess')
+        document.location.pathname('E:\FrontEnd\Login\dashboard.html')
 
     } else {
         alert("Provide Valid Details");

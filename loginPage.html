@@ -16,13 +16,13 @@
 
         <h1>User Login</h1>
         <!-- <label>User Name</label><br> -->
-        <input id="username" type="text" onkeyup="myFunction()" name="user" placeholder="user name" required>
+        <input id="username" type="text" onkeyup="myFunction()" onfocus="this.value=''" name="user" placeholder="user name" required>
         <br><br>
         <!-- <label>Password</label><br> -->
-        <input id="password" type="password" name="password" placeholder="Password" onkeyup="myFunction()">
+        <input id="password" type="password" name="password" onfocus="this.value=''" placeholder="Password" onkeyup="myFunction()">
         <br><br>
         <div class="button">
-            <button id="submit" onclick="validate()"> LOGIN </button>
+            <button id="submit" onclick="validate(); document.getElementById('username').value='';document.getElementById('password').value=''"> LOGIN </button>
         </div>
         <br><br>
     </div>
